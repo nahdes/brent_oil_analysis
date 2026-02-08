@@ -1,0 +1,16 @@
+Date,Event_Type,Event_Category,Description,Impact_Direction,Severity,Region,Notes
+1990-08-02,Geopolitical Conflict,Military Action,Iraqi Invasion of Kuwait,Positive,High,Middle East,Iraq invades Kuwait leading to Gulf War and major oil supply disruption. OPEC member invasion of another member.
+1997-11-01,Economic Crisis,Financial Crisis,Asian Financial Crisis,Negative,High,Asia,Economic crisis spreads across Asia reducing oil demand significantly. Currency devaluations and economic contractions.
+2001-09-11,Geopolitical Event,Terrorism,September 11 Attacks,Neutral,Medium,United States,Terrorist attacks on US creating uncertainty in global markets and oil prices. Initial spike followed by demand concerns.
+2003-03-20,Military Conflict,War,Iraq War Begins,Positive,Medium,Middle East,US-led invasion of Iraq disrupts Middle East oil production. Uncertainty about Iraqi oil exports.
+2008-09-15,Economic Crisis,Financial Crisis,Lehman Brothers Collapse,Negative,Very High,Global,Global financial crisis triggers sharp decline in oil demand. Largest price collapse in modern history.
+2011-02-15,Geopolitical Conflict,Civil Unrest,Arab Spring and Libyan Civil War,Positive,High,North Africa,Unrest in Libya disrupts North African oil production. Loss of ~1.6 million bpd of light sweet crude.
+2014-06-01,OPEC Policy,Production Decision,Oil Price Collapse Begins,Negative,Very High,Global,OPEC decision not to cut production despite oversupply from US shale. Beginning of 2014-2016 price collapse.
+2014-11-27,OPEC Policy,Production Decision,OPEC Maintains Production Quota,Negative,Very High,Global,OPEC decides to maintain production levels at 30 million bpd despite falling prices. Market share strategy.
+2016-11-30,OPEC Policy,Production Cut,OPEC Production Cut Agreement,Positive,High,Global,OPEC agrees to cut production by 1.2 million bpd for first time since 2008. Price stabilization effort.
+2018-05-08,Economic Sanctions,Trade Policy,US Withdraws from Iran Nuclear Deal,Positive,High,Iran,Reimposition of sanctions on Iranian oil exports reduces global supply by ~1 million bpd.
+2019-09-14,Supply Disruption,Infrastructure Attack,Saudi Aramco Attacks,Positive,Medium,Saudi Arabia,Drone attacks on Abqaiq and Khurais facilities temporarily remove 5.7 million bpd (5% of global supply).
+2020-03-06,OPEC Policy,Coordination Failure,OPEC+ Price War,Negative,Very High,Global,Saudi Arabia and Russia fail to agree on production cuts. Saudi increases production and cuts prices.
+2020-03-11,Pandemic,Public Health Crisis,COVID-19 Pandemic Declaration,Negative,Extreme,Global,WHO declares COVID-19 pandemic. Global lockdowns collapse oil demand. Unprecedented demand destruction.
+2020-04-12,OPEC Policy,Historic Production Cut,OPEC+ Historic Production Cut,Positive,Very High,Global,Largest production cut in history at 9.7 million bpd (10% of global supply) to stabilize prices.
+2022-02-24,Military Conflict,War,Russia-Ukraine War,Positive,Very High,Europe/Russia,Russian invasion of Ukraine triggers Western sanctions on Russian oil. Supply concerns and redirection of flows.
