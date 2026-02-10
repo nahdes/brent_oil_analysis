@@ -1,0 +1,151 @@
+/* Events Panel Styles */
+.events-panel {
+  max-height: 600px;
+  display: flex;
+  flex-direction: column;
+}
+
+.events-list {
+  flex: 1;
+  overflow-y: auto;
+  padding-right: 0.5rem;
+}
+
+.event-item {
+  background: #f9fafb;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.event-item:hover {
+  background: #f3f4f6;
+  border-color: #2563eb;
+  transform: translateX(4px);
+}
+
+.event-item.highlighted {
+  background: #eff6ff;
+  border-color: #2563eb;
+  border-width: 2px;
+  box-shadow: 0 2px 4px rgba(37, 99, 235, 0.1);
+}
+
+.event-item.expanded {
+  background: #fff;
+}
+
+.event-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.75rem;
+}
+
+.event-type-badge {
+  padding: 0.25rem 0.75rem;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.event-date {
+  font-size: 0.85rem;
+  color: #6b7280;
+  font-weight: 500;
+}
+
+.event-description {
+  font-size: 0.95rem;
+  color: #1f2937;
+  line-height: 1.5;
+}
+
+.event-details {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid #e5e7eb;
+}
+
+.event-details p {
+  font-size: 0.9rem;
+  color: #4b5563;
+  margin: 0.5rem 0;
+}
+
+.event-details strong {
+  color: #1f2937;
+}
+
+.impact-positive {
+  color: #10b981;
+  font-weight: 600;
+}
+
+.impact-negative {
+  color: #ef4444;
+  font-weight: 600;
+}
+
+.impact-neutral {
+  color: #6b7280;
+  font-weight: 600;
+}
+
+.event-notes {
+  font-style: italic;
+  color: #6b7280;
+  margin-top: 0.75rem;
+  padding-left: 1rem;
+  border-left: 3px solid #e5e7eb;
+}
+
+.events-summary {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid #e5e7eb;
+  text-align: center;
+}
+
+.events-summary p {
+  font-size: 0.9rem;
+  color: #6b7280;
+  margin: 0.25rem 0;
+}
+
+.help-text {
+  font-style: italic;
+  font-size: 0.85rem !important;
+}
+
+.no-events {
+  text-align: center;
+  padding: 3rem 1rem;
+  color: #9ca3af;
+  font-style: italic;
+}
+
+/* Scrollbar Styling */
+.events-list::-webkit-scrollbar {
+  width: 8px;
+}
+
+.events-list::-webkit-scrollbar-track {
+  background: #f3f4f6;
+  border-radius: 4px;
+}
+
+.events-list::-webkit-scrollbar-thumb {
+  background: #d1d5db;
+  border-radius: 4px;
+}
+
+.events-list::-webkit-scrollbar-thumb:hover {
+  background: #9ca3af;
+}
